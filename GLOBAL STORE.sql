@@ -81,3 +81,4 @@ select Market,sum(Sales) as Total_Sales,sum(Profit) as Total_Profit from global_
 
 select "Sub-Category" ,sum(Profit) as Total_Profit FROM global_store_sales group by "Sub-Category" order by Total_Profit DESC LIMIT 5;\
 
+
